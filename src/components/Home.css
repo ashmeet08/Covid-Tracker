@@ -1,0 +1,74 @@
+.Home .lander {
+    padding: 80px 0;
+    text-align: center;
+    
+    
+    
+    
+    background-image: url('https://img.freepik.com/free-vector/covid-19-coronavirus-outbreak-design-with-falling-virus-cell-typography-letter-light-background-vector-2019-ncov-corona-virus-illustration-dangerous-sars-epidemic-theme-banner_1314-2724.jpg?size=626&ext=jpg');
+    
+    background-repeat: repeat;
+    
+    height: 100%;
+  }
+  
+.Home .lander h1 {
+    font-family: "Algerian", ;
+    font-weight: 700;
+    font-size: 180px;
+    padding-top:1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+}
+  
+.Home .lander p {
+    color:black;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 50px;
+    margin-top: 0px;
+}
+.b1 {
+    padding: 0.75em 1em;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+    border: 2px solid royalblue;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 0.3em;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-weight: 800;
+   }
+  .b1:before {
+      content: "";
+      background-color: rgba(255, 255, 255, 0.5);
+      height: 100%;
+      width: 3em;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -4.5em;
+      transform: skewX(-45deg) translateX(0);
+      transition: none;
+    }
+  .b1:hover {
+      background-color: #2194E0;
+      color: #fff;
+      border-bottom: 4px solid darken(royalblue, 10%);
+  }
+  .b1:before {
+        transform: skewX(-45deg) translateX(13.5em);
+       transition: all 0.5s ease-in-out;
+      }

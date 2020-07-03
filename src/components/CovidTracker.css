@@ -1,0 +1,61 @@
+.box{
+    border-radius: 50%;
+    margin: 20px 20px 20px 0px;
+    height: 150px;
+    width: 1000px;
+    /* background-color: purple; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.bg{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f0/COVID-19_Death_Cases_in_India.png');
+    background-repeat: repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 500%;
+}
+h1{
+    
+    padding: 1rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 90px;
+}
+
+.box1{
+    border-radius: 50%;
+    margin: 20px 20px 20px 0px;
+    height: 150px;
+    width: 1000px;  
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    th {
+        height: 50px;
+        padding:15px;
+        text-align: left;
+        background-color: rgba(255, 0, 0, 0.5);
+        color:black ;
+        font-weight: 800;
+        font-size: 30px;
+      }
+    td{
+        padding:15px;
+        font-weight: 700;
+    }
+    tr:hover {background-color: gray;}
+    tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+.content{
+    margin: 20px 20px 20px 0px;
+    text-transform: capitalize;
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid black;
+  }
